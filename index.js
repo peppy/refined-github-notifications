@@ -43,7 +43,7 @@
   const STORAGE_KEY_DETAILS = 'refined-github-notifications:details-cache'
   const DETAILS_CACHE_TIMEOUT = 1000 * 60 * 60 * 6 // 6 hours
 
-  const AUTO_MARK_DONE = useOption('rgn_auto_mark_done', 'Auto mark done', true)
+  const AUTO_MARK_DONE = useOption('rgn_auto_mark_done', 'Auto mark done', false)
   const HIDE_CHECKBOX = useOption('rgn_hide_checkbox', 'Hide checkbox', true)
   const HIDE_ISSUE_NUMBER = useOption('rgn_hide_issue_number', 'Hide issue number', true)
   const HIDE_EMPTY_INBOX_IMAGE = useOption('rgn_hide_empty_inbox_image', 'Hide empty inbox image', true)
