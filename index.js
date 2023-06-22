@@ -733,7 +733,7 @@
     if (!isInNotificationPage())
       return
     /** @type {HTMLButtonElement} */
-    const button = document.querySelector('.filter-list a[href="/notifications"]')
+    const button = document.querySelector('.btn.BtnGroup-item.selected')
     button.click()
   }
 
