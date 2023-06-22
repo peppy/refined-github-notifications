@@ -79,6 +79,25 @@
   function injectStyle() {
     const style = document.createElement('style')
     style.innerHTML = [`
+/* Hide filters list */
+.js-notification-sidebar-filters {
+  display: none !important;
+}
+/* Hide useless tips */
+.js-notifications-list-protip {
+  display: none !important;
+}
+/* Hide useless manage notifications dropdown */
+.pt-2.pl-2 {
+  display: none !important;
+}
+/* Hide useless search bar */
+.subnav-search {
+  display: none !important;
+}
+.js-save-search-details {
+  display: none !important;
+}
 /* Hide blue dot on notification icon */
 .mail-status.unread {
   display: none !important;
