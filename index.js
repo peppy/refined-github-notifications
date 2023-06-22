@@ -380,7 +380,6 @@
           // If the new tab is opened after the current tab, close the current tab
           if (data.time > bcInitTime) {
             window.close()
-            location.href = 'https://close-me.netlify.app'
           }
         }
       }
