@@ -7,7 +7,7 @@
 // @license      MIT
 // @homepageURL  https://github.com/antfu/refined-github-notifications
 // @supportURL   https://github.com/antfu/refined-github-notifications
-// @match        https://github.com/**
+// @match        https://github.com/notifications**
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        window.close
 // @grant        GM_getValue
