@@ -47,7 +47,7 @@
   const HIDE_CHECKBOX = useOption('rgn_hide_checkbox', 'Hide checkbox', true)
   const HIDE_ISSUE_NUMBER = useOption('rgn_hide_issue_number', 'Hide issue number', true)
   const HIDE_EMPTY_INBOX_IMAGE = useOption('rgn_hide_empty_inbox_image', 'Hide empty inbox image', true)
-  const ENHANCE_NOTIFICATION_SHELF = useOption('rgn_enhance_notification_shelf', 'Enhance notification shelf', true)
+  const ENHANCE_NOTIFICATION_SHELF = useOption('rgn_enhance_notification_shelf', 'Enhance notification shelf', false)
   const SHOW_DEATAILS = useOption('rgn_show_details', 'Detail Preview', false)
 
   const GITHUB_TOKEN = localStorage.getItem('github_token') || ''
